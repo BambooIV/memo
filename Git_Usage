@@ -256,3 +256,11 @@ git log <path>
 if you want to fork other repo without viewing the origin url,you can use git importer
 
 git remote set-url <remote_name> <new_url> <old_url>
+----------
+
+Warning: Permanently added the RSA host key for IP address '192.30.252.128' to the list of known hosts.
+add '192.30.252.128   github.com' to etc/hosts
+----------
+
+$ git config --global user.email <different from github profile email>
+so that your contributions won't be tracked 
