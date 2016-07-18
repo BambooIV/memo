@@ -263,4 +263,10 @@ add '192.30.252.128   github.com' to etc/hosts
 ----------
 
 $ git config --global user.email <different from github profile email>
-so that your contributions won't be tracked 
+so that your contributions won't be tracked
+----------
+
+$ android/.repo/repo/main.py", line 500, in <module>
+    _Main(sys.argv[1:]) 
+`rm ~/.repopickle_.gitconfig` should fix this issue.
+https://github.com/sapiippo/git-repo/issues/168
